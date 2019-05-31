@@ -3,9 +3,9 @@
 	"version": "3.2.2",
 	"description": "source build html",
 	"main": "gulpfile.js",
-	"repository": "https://github.com/sonvh2510/01.ToolBuildHTML.git",
+	"repository": "https://github.com/killer20799/Tool-Build-WebKid.git",
 	"private": false,
-	"author": "sonvh2510",
+	"author": "killer20799",
 	"license": "MIT",
 	"scripts": {
 		"start": "gulp"

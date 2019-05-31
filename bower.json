@@ -3,10 +3,10 @@
 	"description": "source build html",
 	"main": "gulpfile.js",
 	"authors": [
-		"sonvh2510"
+		"killer20799"
 	],
 	"license": "MIT",
-	"homepage": "https://github.com/sonvh2510/01.ToolBuildHTML.git",
+	"homepage": "https://github.com/killer20799/Tool-Build-WebKid.git",
 	"private": false,
 	"ignore": [
 		"**/.*",

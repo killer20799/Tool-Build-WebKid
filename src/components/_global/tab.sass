@@ -1,0 +1,52 @@
+.tab-content
+	display: none
+	&.show
+		display: block
+.home-tab
+	margin-bottom: 30px
+	nav
+		display: flex
+		justify-content: center
+	.tab-item
+		font-size: 18px
+		font-weight: 500
+		padding: 0 15px
+		border-bottom: 2px solid transparent
+		margin: 0 25px
+		color: #333333
+		text-align: center
+		&.active
+			border-bottom: 2px solid #333333
+			color: #333333
+		@media (min-width: 1025px)
+			&:hover
+				border-bottom: 2px solid #333333
+	@media (max-width: 1024px)
+		nav
+			flex-wrap: wrap
+			display: none
+			box-shadow: 0px 0px 14px 0px rgba(black,.5)
+			padding: 15px
+			background: white
+			a
+				display: block
+				padding: 10px
+				flex: 0 0 100%
+				max-width: 100%
+				&.active
+					color: white
+.mobile-nav-toggle
+	display: flex
+	justify-content: space-between
+	align-items: center
+	background: #999999
+	padding: 7px 10px
+	h4
+		font-size: 20px
+		text-transform: uppercase
+		color: white
+	span
+		font-size: 24px
+		color: white
+	@media (min-width: 1025px)
+		display: none
